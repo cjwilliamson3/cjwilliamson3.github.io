@@ -1,4 +1,120 @@
 /* Global Styles */
+.text-white {
+  color: #ffffff;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url(../img/computer-grey.jpg);
+  height: 100vh;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+
+.hero-section h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.hero-section p {
+  font-size: 20px;
+}
+
+/* About Section */
+.about-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about-section h2 {
+  border-bottom: 2px solid #000000;
+}
+
+.about-section p {
+  padding-left: 10px;
+}
+
+.selfie {
+  margin-top: 20px;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #000000;
+}
+
+.portfolio-section h2 {
+  border-bottom: 2px solid #ffffff;
+}
+
+.portfolio-list {
+  margin-bottom: 40px;
+}
+
+.link-spacing {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.button {
+  text-decoration: none;
+  width: 60px;
+  height: 20px;
+  background: #cccccc;
+  padding: 10px;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* Contact Section */
+.contact-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contact-section h2 {
+  border-bottom: 2px solid #000000;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info a {
+  text-decoration: none;
+}
+
+.fab {
+  font-size: 20px;
+  padding-right: 10px;
+  color: #000000;
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
 
 /* Small Screens */
 @media only screen and (min-width : 768px) {
