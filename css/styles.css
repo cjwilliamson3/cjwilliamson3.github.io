@@ -1,6 +1,44 @@
+/* font-family: 'Muli', sans-serif; */
+/* font-family: 'Nunito', sans-serif; */
+/* font-family: 'Indie Flower', cursive; */
+
 /* Global Styles */
+body {
+  font-family: 'Nunito', sans-serif;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Muli', sans-serif;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
 .text-white {
   color: #ffffff;
+}
+
+/* Navbar */
+.navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-brand h1 {
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: #ffffff;
+  background: transparent;
 }
 
 /* Hero Section */
@@ -40,6 +78,16 @@
 
 .selfie {
   margin-top: 20px;
+}
+
+.qoute-section {
+  margin-top: 20px;
+  border-top: 2px solid #000000;
+}
+
+.fav-quote p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
 }
 
 /* Portfolio Section */
