@@ -49,7 +49,6 @@ a:focus, a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   align-items: center;
 }
 
